@@ -1,6 +1,11 @@
 # epdf
 An incomplete library to make PDF files from emacs.
 
+All files must be in load path, load epdf-export.el
+
+The run the command epdf-export-buffer. The result will be in the buffer *mkpdf*. Save it as a pdf gile.
+
+
 This library took me many months to build, but I am not going to finish it. 
 
 It allows to build PDF files with embedded fonts. 
